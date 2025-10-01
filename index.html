@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BlitzRacer APK Download</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f0f8ff; /* bright, clear background */
+        color: #111;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+    }
+    h1 {
+        color: #ff4500; /* bright orange for title */
+        margin-bottom: 1rem;
+    }
+    p {
+        max-width: 500px;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+    button {
+        background: #00bfff; /* bright blue */
+        color: #fff;
+        border: none;
+        padding: 15px 30px;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    button:hover {
+        background: #1e90ff;
+    }
+</style>
+</head>
+<body>
+<h1>BlitzRacer APK</h1>
+<p>Download the latest version of BlitzRacer and enjoy the game on your Android TV or device.</p>
+<p>If the download doesn’t start automatically, press the button below.</p>
+<a id="apkLink" href="BlitzRacer.apk" download></a>
+<button onclick="downloadAPK()">Download Now</button>
+
+<script>
+// Auto-download on page load
+window.onload = function() {
+    const link = document.getElementById('apkLink');
+    link.click();
+};
+
+// Button fallback
+function downloadAPK() {
+    const link = document.getElementById('apkLink');
+    link.click();
+}
+</script>
+</body>
+</html>
